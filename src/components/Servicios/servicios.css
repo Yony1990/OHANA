@@ -1,0 +1,170 @@
+#servicios {
+    width: 100%;
+    padding: 30px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+/* 
+#servicios h3 {
+
+} */
+
+.servicios-cards {
+    max-width: 1000px;
+}
+
+.servicios-cards ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.servicios-cards ul li {
+    
+    position: relative;
+    overflow: hidden;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    list-style: none;
+    width: 250px;
+    height: 320px;
+    background-color: rgba(153, 90, 208, 0.311);
+    box-shadow: 5px 10px 20px rgba(17, 0, 25, 0.424);
+    transition: all .3s linear;
+}
+
+.servicios-cards ul li:hover {
+    scale: 1.1;
+    background-color: rgba(153, 90, 208, 0.779);
+    box-shadow: 5px 10px 20px #3e025aa1;
+}
+
+.servicios-cards ul li .esquina {
+    position: absolute;
+    margin-top: 60px;
+
+    width: 250px;
+    height: 250px;
+ 
+    background-image: url(../img/esquinero-huell.png);
+    background-size: cover;
+    background-position: calc() 0;
+    filter: contrast(2) saturate(.4);
+    opacity: .4;
+}
+
+.servicios-cards ul li span {
+    /* color: #f5abff; */
+    color: #3d2854;
+    font-weight: 600;
+    font-size: 1.1rem;
+    z-index: 1;
+    font-family: "Sour Gummy", serif;
+}
+
+.servicios-cards ul li svg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    /* background-color: #8b3ffcb1; */
+    margin-top: -120px;
+    margin-left: -12px;
+}
+
+.servicios-cards ul li:nth-child(3) svg {
+    margin-top: -100px;
+    margin-left: 10px;
+    rotate: -80deg;
+    width: 170px;
+    height: 170px;
+}
+
+.servicios-cards ul li:nth-child(4) svg {
+    width: 160px;
+    height: 160px;
+}
+
+.servicios-cards ul li:nth-child(5) svg {
+    margin-top: -110px;
+    margin-left: 0px;
+}
+
+.servicios-cards ul li:nth-child(6) svg {
+    width: 170px;
+    height: 170px;
+    margin-left: -17px;
+}
+
+.servicios-cards ul li  p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: .88rem;
+    font-weight: 500;
+    z-index: 1;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+.servicios-cards ul li figure {
+   width: 70px;
+   height: 70px;
+   opacity: .6;
+   filter: drop-shadow(0 0 10px rgb(255, 216, 238));
+}
+
+.servicios-cards ul li figure.img-1 {
+    background-image: url(../img/servicios/perro.png);
+    background-size: cover;
+}
+
+.servicios-cards ul li figure.img-2 {
+    background-image: url(../img/servicios/corte-de-pelo.png);
+    background-size: cover;
+}
+
+.servicios-cards ul li figure.img-3 {
+    background-image: url(../img/servicios/tijeras-de-unas.png);
+    background-size: cover;
+    filter: saturate(0);
+    opacity: .5;
+}
+
+.servicios-cards ul li figure.img-4 {
+    background-image: url(../img/servicios/limpieza-de-oidos.png);
+    background-size: cover;
+}
+
+.servicios-cards ul li figure.img-5 {
+    background-image: url(../img/servicios/peine.png);
+    background-size: cover;
+}
+
+.servicios-cards ul li figure.img-6 {
+    background-image: url(../img/servicios/perros-corte.png);
+    background-size: cover;
+}
+
+.servicios-cards ul li Button {
+    /* color: rgb(70, 64, 76); */
+    color: rgb(52, 0, 98);
+    padding: 5px 10px 3px 10px;
+    background-color: #f290ff;
+    
+    font-family: "Sour Gummy", serif;
+    border-radius: 12px;
+    gap: 5px;
+    letter-spacing: .5px;
+}
+
+.servicios-cards ul li Button:hover {
+    background-color: #9753cf;
+    color: rgb(224, 166, 222);
+}

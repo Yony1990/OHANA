@@ -1,0 +1,174 @@
+#floating {
+    position: sticky;
+    top: 96%;
+    width: 100vw;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 15px;
+    z-index: 100;
+    gap: 5px;
+}
+
+#floating button {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(46, 16, 81, 0.168);
+    backdrop-filter: blur(10px);
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s linear;
+}
+
+#floating button.adop-btn {
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    backdrop-filter: blur(0px);
+    filter: drop-shadow(5px 7px 10px rgb(33, 0, 68));
+}
+
+#floating button i {
+    color: rgb(52, 0, 98);
+    opacity: .6;
+}
+#floating button:active {
+    transform: translate(2px ,2px);
+}
+
+#floating button .adop {
+    width: 75px;
+    height: 65px;
+    background-image: url(../img/styki/adop.png);
+    background-size: cover;
+}
+
+#floating .adoption-modal, #floating .ir-inicio {
+    display: flex;
+    align-items: center;justify-content: center;
+}
+
+#floating .adoption-modal .modal {
+    display: none;
+    position: absolute;
+    background-color: rgb(92, 46, 131);
+    margin-top: -300px;
+    margin-left: -360px;
+    border-radius: 60px 60px 0 60px;
+    transition: all 13s linear;
+    animation: modal .3s ease;
+}
+
+@keyframes modal {
+    0% {
+        opacity: 0;
+       width: 0px;
+       height: 0px;
+       transform: translateX(300px) translateY(250px);
+       filter: blur(20px);
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+        opacity: 0;
+        
+    }
+    90% {
+        filter: blur(20px);
+    }
+    100% {
+        opacity: 1;
+        width: 300px;
+        height: 250px;
+        filter: blur(0px);
+    }
+}
+
+
+#floating .adoption-modal .modal.active {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    
+}
+
+#floating .adoption-modal .content-modal-adop {
+    width: 100%;
+    height: 100%;
+    border: double 4px rgb(192, 119, 255);
+    position: relative;
+    padding: 15px;
+    border-radius: 55px 55px 0 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#floating .adoption-modal .content-modal-adop p {
+    text-align: center;
+    color: rgb(241, 181, 255);
+    font-size: .75rem;
+    margin-top: 5px;
+    font-family: "Sour Gummy", serif;
+}
+
+#floating .adoption-modal .content-modal-adop img {
+    position: absolute;
+    width: 30%;
+    bottom: -10px;
+    z-index: 2;
+}
+#floating .adoption-modal .content-modal-adop .line {
+    position: absolute;
+    bottom: -5px;
+    width: 30%;
+    height: 20px;
+    z-index: 1;
+    background-color: rgb(92, 46, 131);
+}
+
+#floating .adoption-modal .content-modal-adop Button {
+    text-transform: uppercase;
+   position: absolute;
+   bottom: 15px;
+   right: 15px;
+   color: rgb(52, 0, 98);
+   width: 70px;
+   height: 30px;
+   background-color: #f399ff;
+   font-size: .7rem;
+   font-family: "Sour Gummy", serif;
+   border-radius: 12px;
+ }
+ #floating .adoption-modal .content-modal-adop button:hover {
+    background-color: #9753cf;
+    color: rgb(224, 166, 222);
+}
+
+#floating {
+    view-timeline-name: --reveal;
+    animation-name: floa;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: entry 500% cover 10%;
+}
+@keyframes floa {
+    0% {
+        opacity: 0;
+        filter: blur(20px);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}

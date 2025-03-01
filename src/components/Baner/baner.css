@@ -1,0 +1,22 @@
+.baner {
+    width: 100%;
+    height: max-content;
+}
+
+.baner .container-baner {
+    padding: 0 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    
+}
+
+.logo-ohana img{
+    filter: saturate(1.5);
+    width: 300px;
+    position: relative;
+    top: 10px;
+}

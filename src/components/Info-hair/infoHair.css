@@ -1,0 +1,228 @@
+#info-hair {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px ;
+    gap: 50px;
+}
+
+.container-infoHair {
+    width: 1000px;
+    /* border: solid 1px rgb(52, 0, 98); */
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.container-infoHair .text-info-hair {
+    width: 400px;
+}
+
+.container-infoHair .text-info-hair article {
+    font-size: .92rem;
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+.container-infoHair .galery-slider-info-hair {
+    width: 580px;
+    height: 390px;
+    background-color: rgb(179, 118, 255);
+    border-radius: 22px;
+
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.container-infoHair .galery-slider-info-hair img {
+    cursor: grab;
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+.swiper {
+    width: 700px;
+    height: 420px;
+    
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(17, 0, 25, 0.424);
+  }
+
+  .swiper-slide:nth-child(1n) {
+    width: 100%;
+    background-color: #f290ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+.swiper-slide .fondoSlider {
+    position: absolute;
+    width: 300px;
+    height: 275px;
+
+    opacity: .1;
+
+}  
+
+.swiper-slide .img-info {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.swiper-slide:nth-child(2) {
+    background-color: #ff9456;
+}
+.swiper-slide:nth-child(2) .img-info {
+    margin-left: 60%;
+    filter: drop-shadow(0 0 40px #d8c759);
+}
+
+.swiper-slide:nth-child(3) {
+    background-color: rgb(109, 109, 213);
+}
+.swiper-slide:nth-child(3) .img-info {
+    margin-left: -60%;
+    width: 60%;
+    filter: drop-shadow(0 0 40px rgb(5, 45, 90));
+}
+.swiper-slide:nth-child(4) {
+    background-color: #ff9456;
+}
+.swiper-slide:nth-child(4) .img-info {
+    margin-left: 45%;
+    width: 60%;
+    filter: drop-shadow(0 0 40px #d8c759);
+}
+
+.swiper-slide:nth-child(5) {
+    background-color: rgb(114, 109, 217);
+}
+.swiper-slide:nth-child(5) .img-info {
+    margin-left: -50%;
+    width: 45%;
+    filter: drop-shadow(0 0 40px rgb(203, 211, 255));
+    
+}
+
+.swiper-p {
+    text-align: center;
+    width: 62%;
+    padding: 0 20px 0 0;
+    font-size: 1.1rem;
+    position: relative;
+    left: -90px;
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    animation: text .5s ease;
+    font-family: 'Afacad Flux', sans-serif;
+    
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.swiper-p-2 {
+    /* background-color: #f290ff45; */
+    position: absolute;
+    margin-left: 390px;
+    text-align: center;
+    width: 45%;
+    padding: 0 20px 0 10px;
+    font-size: 1.1rem;
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+.swiper-p-3 {
+    text-align: center;
+    width: 40%;
+    padding: 0 0px 0 0;
+    font-size: 1.1rem;
+    position: relative;
+    left: -180px;
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    font-family: 'Afacad Flux', sans-serif;
+}
+.swiper-p-3 .span-parent, .swiper-p-2 .span-parent, .swiper-p .span-parent {
+    font-weight: 750;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+.swiper-p-4 {
+    /* background-color: #f290ff45; */
+    position: absolute;
+    margin-left: 280px;
+    text-align: center;
+    width: 50%;
+    padding: 0 20px 0 10px;
+    font-size: 1.1rem;
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+.article-swiper {
+    z-index: 2;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.1rem;
+    color: rgb(23, 23, 23);
+    font-weight: normal;
+    font-family: 'Afacad Flux', sans-serif;
+}
+
+/* .article-swiper span {
+    font-family: "Sour Gummy", serif;
+    font-weight: 700;
+} */
+
+.swiperSlide span {
+    font-family: "Sour Gummy", serif;
+    font-weight: 700;
+    color: rgb(52, 0, 98);
+}
+
+@media (max-width: 550px) {
+    .mySwiper {
+        scale: .5;
+    }
+    .mySwiper {
+        height: 800px;
+        width: 550px;
+        margin-top: -200px;
+        margin-bottom: -400px;
+    }
+}

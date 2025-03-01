@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.portada-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    font-family: "Caveat Brush", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portada-container .huellitas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: .08;
+
+    filter: drop-shadow(0 0 10px rgb(52, 0, 74));
+}
+
+/* .portada-container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: red;
+    
+ } */
+
+.portada-container .text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 90%;
+   /* top: 70px;
+   margin-bottom: 400px; */
+   position: relative;
+   bottom: 200px;
+}
+
+.portada-container p {
+  font-family: "Sour Gummy", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgba(255, 244, 254, 0.46);
+  font-size: 1.15rem;
+  position: relative;
+  top: 10px;
+}
+
+.portada-container h2 {
+  position: relative;
+  left: -15px;
+  font-family: "Sour Gummy", serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  color: rgb(251, 204, 255);
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.portada-container h2 .huella {
+   position: relative;
+   left: 15px;
+   bottom: 8px;
+   rotate: 15deg;
+   width: 130px;
+   height: 130px;
+   background-image: url(../img/huella-peerito.png);
+   background-size: cover;
+   filter: drop-shadow(0 0 10px rgb(255, 255, 255));
+  
+}
+
+.portada-container article {
+    font-family: "Sour Gummy", serif;
+    letter-spacing: 20px;
+    font-weight: 400;
+    color: rgb(255, 176, 189);
+    font-size:1.6rem;
+   
+}
+/* .portada-container .perrito-seca {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    height: 283px;
+    background-color: rgba(255, 0, 0, 0.462);
+    background-image: url(../img/ohana-pelu.png);
+    filter: drop-shadow(0px -20px 20px rgba(17, 0, 25, 0.257));
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+} */
+
+.portada-container .perrito-seca {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -342px;
+    
+    width: 600px;
+    height: 450px;
+    
+    background-image: url(../img/ohanaaaaaa.png);
+    filter: drop-shadow(0px 0px 20px rgba(17, 0, 25, 0.423)) brightness(.7);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+
+}
+
+.portada-container .figura-bajo {
+    z-index: -1;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50% 50% 0px 0px ;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 204, 251);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.portada-container .bubble {
+  position: absolute;
+  left: -20px;
+  top: -50px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  background-image: url(../img/bubble-5.png);
+  background-size: cover;
+  opacity: 7;
+}
+
+.portada-container .bubble-2 {
+    display: flex;
+    align-items: center;
+    color: rgba(53, 16, 90, 0.685);
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px 0 20px;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background-image: url(../img/bubble-5.png);
+    background-size: cover;
+    opacity: .8;
+    z-index: 2;
+}
+
+.portada-container .bubble-3 {
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-image: url(../img/bubble-5.png);
+    background-size: cover;
+}
+
+.portada-container .bubble-4 {
+    display: flex;
+    align-items: center;
+    color: rgba(66, 34, 97, 0.46);
+    text-align: center;
+    justify-content: center;
+    padding: 20px 40px 0 40px;
+    font-size: .8rem;
+    position: absolute;
+    right: -20px;
+    top: -50px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-image: url(../img/bubble-5.png);
+    background-size: cover;
+}
+
+.portada-container .bubble-5 {
+    position: absolute;
+    right: 220px;
+    bottom: 350px;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-image: url(../img/bubble-5.png);
+    background-size: cover;
+}
+
+.portada-container .bubble-6 {
+    position: absolute;
+    right: 15%;
+    bottom: 50px;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    background-image: url(../img/bubble-5.png);
+    background-size: cover;
+    opacity: .8;
+    z-index: -2;
+}
+
+.portada-container i {
+    color: rgb(255, 197, 241);
+    position: absolute;
+}
+
+.portada-container i.bi-1 {
+    rotate: -15deg;
+    bottom: 378px;
+    left: 47.6%;
+}
+
+.portada-container i.bi-2 {
+    rotate: -15deg;
+    bottom: 500px;
+    left: 32%;
+}
+
+.portada-container .circul {
+    width: 20px;
+    height: 20px;
+    border: solid 5px rgb(250, 226, 255);
+    border-radius: 50%;
+    position: absolute;
+}
+
+.portada-container .circul-2 {
+    width: 40px;
+    height: 40px;
+    border: solid 5px rgb(255, 195, 251);
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+}
+
+.portada-container .circul-3 {
+    width: 80px;
+    height: 80px;
+    border: solid 5px rgb(255, 226, 226);
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    opacity: .5;
+    z-index: -1;
+}
