@@ -235,8 +235,8 @@
 
 .portada-container i.bi-2 {
     rotate: -15deg;
-    bottom: 500px;
-    left: 32%;
+    bottom: 570px;
+    left: 34%;
 }
 
 .portada-container .circul {
@@ -245,6 +245,8 @@
     border: solid 5px rgb(250, 226, 255);
     border-radius: 50%;
     position: absolute;
+    left: 40%;
+    margin-top: -30px;
 }
 
 .portada-container .circul-2 {
@@ -259,10 +261,10 @@
 .portada-container .circul-3 {
     width: 80px;
     height: 80px;
-    border: solid 5px rgb(255, 226, 226);
+    border: solid 5px rgba(255, 226, 226, 0.433);
     border-radius: 50%;
     position: absolute;
-    left: 60%;
+    left: 63%;
     top: 30%;
     opacity: .5;
     z-index: -1;
