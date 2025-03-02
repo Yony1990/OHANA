@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./floating.css"
 import { Link } from "react-scroll"
-import adoptOne from "../img/floting/floting-3.png"
+import adoptOne from "../img/floting/floting-3.webp"
 
 
 

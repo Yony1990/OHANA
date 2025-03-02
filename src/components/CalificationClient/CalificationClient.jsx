@@ -3,15 +3,13 @@ import "./calificationClient.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import porotico from "../img/porotico.jpg";
-
-import lila from "../img/clientes/i.jpg";
-import mia from "../img/clientes/k.jpg";
-import momo from "../img/clientes/j.jpg";
-import caniche from "../img/clientes/d.jpg";
-import timido from "../img/clientes/n.jpg";
-import alex from "../img/clientes/g.jpg";
-import golden from "../img/clientes/f.jpg";
+import lila from "../img/clientes/i.webp";
+import mia from "../img/clientes/k.webp";
+import momo from "../img/clientes/j.webp";
+import caniche from "../img/clientes/d.webp";
+import timido from "../img/clientes/n.webp";
+import alex from "../img/clientes/g.webp";
+import golden from "../img/clientes/f.webp";
 
 
 import { Pagination } from 'swiper/modules';

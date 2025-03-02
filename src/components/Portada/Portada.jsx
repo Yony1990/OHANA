@@ -1,6 +1,6 @@
 import React from 'react'
 import "./portada.css"
-import hullitas from "../img/fondo-huellitas.png"
+import hullitas from "../img/fondo-huellitas.webp"
 
 
 const Portada = () => {

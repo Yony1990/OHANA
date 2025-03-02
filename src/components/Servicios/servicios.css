@@ -121,34 +121,34 @@
 }
 
 .servicios-cards ul li figure.img-1 {
-    background-image: url(../img/servicios/perro.png);
+    background-image: url(../img/servicios/perro.webp);
     background-size: cover;
 }
 
 .servicios-cards ul li figure.img-2 {
-    background-image: url(../img/servicios/corte-de-pelo.png);
+    background-image: url(../img/servicios/corte-de-pelo.webp);
     background-size: cover;
 }
 
 .servicios-cards ul li figure.img-3 {
-    background-image: url(../img/servicios/tijeras-de-unas.png);
+    background-image: url(../img/servicios/tijeras-de-unas.webp);
     background-size: cover;
     filter: saturate(0);
     opacity: .5;
 }
 
 .servicios-cards ul li figure.img-4 {
-    background-image: url(../img/servicios/limpieza-de-oidos.png);
+    background-image: url(../img/servicios/limpieza-de-oidos.webp);
     background-size: cover;
 }
 
 .servicios-cards ul li figure.img-5 {
-    background-image: url(../img/servicios/peine.png);
+    background-image: url(../img/servicios/peine.webp);
     background-size: cover;
 }
 
 .servicios-cards ul li figure.img-6 {
-    background-image: url(../img/servicios/perros-corte.png);
+    background-image: url(../img/servicios/perros-corte.webp);
     background-size: cover;
 }
 

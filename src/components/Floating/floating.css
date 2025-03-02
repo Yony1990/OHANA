@@ -45,7 +45,7 @@
 #floating button .adop {
     width: 75px;
     height: 65px;
-    background-image: url(../img/styki/adop.png);
+    background-image: url(../img/styki/adop.webp);
     background-size: cover;
 }
 
@@ -123,7 +123,7 @@
 
 #floating .adoption-modal .content-modal-adop img {
     position: absolute;
-    width: 30%;
+    width: 28%;
     bottom: -10px;
     z-index: 2;
 }

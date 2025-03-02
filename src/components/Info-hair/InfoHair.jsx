@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 
-import cute_1 from "../img/galery-consejos/sin_fondo/cute_1.png";
-import cute_3 from "../img/galery-consejos/sin_fondo/cute_3.png";
-import cute_4 from "../img/galery-consejos/sin_fondo/cute_4.png";
-import fre_1 from "../img/galery-consejos/sin_fondo/fre_1.png";
+import cute_1 from "../img/galery-consejos/sin_fondo/cute_1.webp";
+import cute_3 from "../img/galery-consejos/sin_fondo/cute_3.webp";
+import cute_4 from "../img/galery-consejos/sin_fondo/cute_4.webp";
+import fre_1 from "../img/galery-consejos/sin_fondo/fre_1.webp";
 import fondo_slider from "../img/galery-consejos/fondo-slider.webp";
 
 import { EffectCards } from 'swiper/modules';

@@ -1,5 +1,5 @@
 import React from 'react'
-import mapa from "../img/Maps/mapa.png"
+import mapa from "../img/Maps/mapa.webp"
 import "./maps.css"
 
 import Accordion from '@mui/material/Accordion';
