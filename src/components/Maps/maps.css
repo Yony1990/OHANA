@@ -207,6 +207,12 @@
     cursor: pointer;
 }
 
+#maps .info-cont-redes .redes-content a {
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+
 #maps .info-cont-redes .redes-content:hover {
     background-color: rgb(201, 132, 209);
 }

@@ -84,10 +84,11 @@ const Maps = () => {
                         </div>
 
                         <div className="redes-content">
+                        <a href="https://www.instagram.com/ohana.petdog?igsh=MWJzZWM2cXgxbnY0Mg==">
                             <i className="bi bi-instagram"></i> 
                             <div className="redes-insta">
                                 <article>Instagram</article>
-                            </div>          
+                            </div>     </a>     
                         </div>
 
                     </div>
