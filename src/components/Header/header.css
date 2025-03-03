@@ -28,6 +28,7 @@
 
 
 .header-container .header-content.active {
+    box-shadow: 0 0 30px black;
     background-color: #62486993;
     backdrop-filter: blur(20px);
     height: calc(100vh - 11px);
