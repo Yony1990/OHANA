@@ -89,7 +89,7 @@ const CalificationClient = () => {
                         <i className="bi bi-star-fill"></i> 
                     </div>
                     
-                    <span className='name-father'>Daniel</span>
+                    <span className='name-father'>Liliana</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -105,7 +105,7 @@ const CalificationClient = () => {
                         <i className="bi bi-star-fill"></i> 
                     </div>
                     
-                    <span className='name-father'>Daniel</span>
+                    <span className='name-father'>María</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -121,7 +121,7 @@ const CalificationClient = () => {
                         <i className="bi bi-star-fill"></i> 
                     </div>
                     
-                    <span className='name-father'>Daniel</span>
+                    <span className='name-father'>Carla</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -137,7 +137,7 @@ const CalificationClient = () => {
                         <i className="bi bi-star-fill"></i> 
                     </div>
                     
-                    <span className='name-father'>Daniel</span>
+                    <span className='name-father'>Bruno</span>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
@@ -153,7 +153,7 @@ const CalificationClient = () => {
                         <i className="bi bi-star-fill"></i> 
                     </div>
                     
-                    <span className='name-father'>Daniel</span>
+                    <span className='name-father'>Benjamín</span>
                 </div>
             </SwiperSlide>
           </Swiper>

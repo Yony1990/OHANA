@@ -10,6 +10,7 @@
 }
 
 .header-container .header-content {
+
     height: 60px;
     /* background: linear-gradient(#ea92fc5c, #ffffff00); */
     background-color: #b188bc93;
@@ -22,6 +23,15 @@
     justify-content: space-between;
     color: rgb(52, 0, 98);
     border-radius: 30px;
+    transition: .3s;
+}
+
+
+.header-container .header-content.active {
+    background-color: #62486993;
+    backdrop-filter: blur(20px);
+    height: calc(100vh - 11px);
+    align-items: start;
 }
 
 .header-container .header-content .link {
@@ -37,12 +47,12 @@
     object-fit: contain;
 }
 
-.header-container ul {
+.header-container .ul-1 {
     display: flex;
     gap: 40px;
 }
 
-.header-container ul li {
+.header-container .ul-1 li {
     /* text-shadow: 0 0 2px rgb(0, 0, 0); */
     list-style: none;
     cursor: pointer;
@@ -54,7 +64,7 @@
     font-family: 'Afacad Flux', sans-serif;
 }
 
-.header-container ul li .arrow, .header-container ul li .arrow-L {
+.header-container .ul-1 li .arrow, .header-container ul li .arrow-L, .header-container ul li .arrow-S {
     border-radius: 10px;
     width: 0px;
     height: 2px;
@@ -68,14 +78,17 @@
 }
 
 
-.header-container ul li:hover .arrow{
-    width: 60px;
+.header-container .ul-1 li:hover .arrow{
+    width: 68px;
 }
-.header-container ul li:hover .arrow-L{
-    width: 100px;
+.header-container .ul-1 li:hover .arrow-S{
+    width: 62px;
+}
+.header-container .ul-1 li:hover .arrow-L{
+    width: 105px;
 }
 
-.header-container button {
+.header-container Button {
    /* color: rgb(119, 0, 222); */
    color: rgb(52, 0, 98);
   padding: 5px 10px 3px 10px;
@@ -89,4 +102,137 @@
 .header-container Button:hover {
     background-color: #9753cf;
     color: rgb(224, 166, 222);
+}
+
+
+.menu-x {
+    display: none;
+    height: 100%;
+    padding-top: 5px;
+    z-index: 100;
+}
+
+.ham {
+    display: flex;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 50px;
+}
+
+.line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke: rgb(29, 0, 57);
+    stroke-width:4.5;
+    stroke-linecap:round;
+}
+
+.ham6 .top {
+    stroke-dasharray: 40 172;
+}
+.ham6 .middle {
+    stroke-dasharray: 40 111;
+}
+.ham6 .bottom {
+    stroke-dasharray: 40 172;
+}
+.ham6 .top.active {
+    stroke-dashoffset: -132px;
+}
+.ham6 .middle.active  {
+    stroke-dashoffset: -71px;
+}
+.ham6 .bottom.active {
+    stroke-dashoffset: -132px;
+}
+
+.menuOpenAll {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.menuOpenAll.active {
+    display: flex;
+}
+
+.menuOpenAll ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(29, 0, 57);
+    gap: 50px;
+}
+
+.menuOpenAll ul li {
+    font-size: 2rem;
+    list-style: none;
+    position: relative;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.menuOpenAll ul li .arrow {
+    width: 0%;
+    height: 2.2rem;
+    bottom: 10%;
+    left: -6px;
+    background-color: rgba(79, 0, 152, 0.253);
+    transition: .2s;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.menuOpenAll ul li:hover {
+    color: white;
+}
+
+.menuOpenAll ul li:hover .arrow, .menuOpenAll ul li:hover .arrow-XL  {
+    width: 110%;
+}
+
+.menuOpenAll ul li .arrow-XL {
+    width: 0%;
+    height: 2.2rem;
+    bottom: 10%;
+    left: -11px;
+    background-color: rgba(79, 0, 152, 0.253);
+    transition: .2s;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 750px) {
+    .header-container {
+
+        padding: 5px 5px;
+    }
+    .header-container .header-content {
+        align-items: start;
+    }
+    .header-container .header-content .link {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-container .header-content .ul-1 {
+        display: none;
+    }
+    .header-container Button {
+        display: none;
+    }
+    .menu-x {
+        display: block;
+    }
 }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./floating.css"
 import { Link } from "react-scroll"
 import adoptOne from "../img/floting/floting-3.webp"
+import Button from '@mui/material/Button';
 
 
 
@@ -16,6 +17,11 @@ const Floating = () => {
 
   return (
     <section id='floating'>
+        <div className="btn-content-whatsap">
+          <a href="https://wa.me/59891554406">
+            <Button className='btn-whatsapp' size='small' variant="contained"><i className="bi bi-whatsapp"></i> Agendate</Button>
+          </a>
+        </div>
 
         <div className="adoption-modal">
             <button onClick={showModal} className='adop-btn'><figure className='adop'></figure></button>

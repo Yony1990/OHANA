@@ -11,6 +11,10 @@
     gap: 5px;
 }
 
+#floating a {
+    text-decoration: none;
+}
+
 #floating button {
     cursor: pointer;
     border-radius: 50%;
@@ -51,7 +55,8 @@
 
 #floating .adoption-modal, #floating .ir-inicio {
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #floating .adoption-modal .modal {
@@ -170,5 +175,65 @@
     100% {
         opacity: 1;
         filter: blur(0px);
+    }
+}
+
+#floating .btn-content-whatsap {
+    position: absolute;
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#floating .btn-content-whatsap .btn-whatsapp {
+    /* color: rgb(119, 0, 222); */
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    color: rgb(224, 166, 222);
+   padding: 5px 10px 3px 10px;
+   background-color: #502276;
+   font-family: "Sour Gummy", serif;
+   font-size: 1.2rem;
+   border-radius: 17px;
+   gap: 5px;
+   letter-spacing: .5px;
+   box-shadow: 5px 5px 15px rgba(15, 0, 31, 0.823);
+ }
+
+ #floating .btn-content-whatsap .btn-whatsapp i {
+    color: rgb(224, 166, 222);
+    font-size: 1.3rem;
+ }
+ 
+ #floating .btn-content-whatsap .btn-whatsapp:hover {
+    background-color: rgb(224, 166, 222);
+    color: #502276;
+ }
+
+ #floating .btn-content-whatsap .btn-whatsapp:hover i {
+    color: #502276;
+ }
+
+ 
+@media (max-width: 750px) {
+    #floating .btn-content-whatsap {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    #floating .adoption-modal {
+        position: absolute;
+        
+        right: 0px;
+    }
+    #floating .ir-inicio {
+        position: absolute;
+        right: 20px;
+        margin-top: -100px;
     }
 }
