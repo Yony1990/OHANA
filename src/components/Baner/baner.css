@@ -16,7 +16,6 @@
 }
 
 .logo-ohana img{
-    background-color: red;
     filter: saturate(1.5);
     width: 300px;
     position: relative;
