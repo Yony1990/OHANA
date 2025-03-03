@@ -1,6 +1,7 @@
 #floating {
     position: sticky;
     top: 96%;
+    
     width: 100vw;
     height: 1px;
     display: flex;

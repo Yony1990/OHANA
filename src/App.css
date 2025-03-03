@@ -3,9 +3,9 @@
 }
 
 .main-app{
+ 
   z-index: 5;
   padding-bottom: 30px;
-  /* padding-bottom: 65px; */
   margin-top: -2px;
   display: flex;
   flex-direction: column;
@@ -17,4 +17,10 @@
 
 h3 {
   color: rgb(52, 0, 98);
+}
+
+@media (max-width: 750px) {
+  .main-app {
+    padding-bottom: 65px;
+  }
 }

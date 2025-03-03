@@ -1,6 +1,7 @@
 import React from 'react'
 import "./baner.css"
-import logo from "../img/logo/Logo.webp"
+import logo from "../img/logo/logoSinColor.png"
+import biwedex from "../img/logo/Biwedex.png"
 
 const Baner = () => {
   return (
@@ -8,11 +9,9 @@ const Baner = () => {
       <div className="container-baner">
 
           <div className="sobre-ohana">
-            <div>ohana</div>
-            <div>ohana</div>
-            <div>ohana</div>
-            <div>ohana</div>
-            <div>ohana</div>
+            <span>©2025 OHANA Peluquería Canina</span>
+            <span>Todos los derechos reservados.</span>
+            <span>Montevideo, Uruguay</span>
           </div>
 
           <div className="logo-ohana">
@@ -20,11 +19,12 @@ const Baner = () => {
           </div>
 
           <div className="sobre-biwedex">
-          <div>biwedex</div>
-            <div>biwedex</div>
-            <div>biwedex</div>
-            <div>biwedex</div>
-            <div>biwedex</div>
+            <span>Sitio Desarrollado y Alojado por</span>
+            <a href="https://biwedex.com/">
+            <span>Biwedex Company</span>
+            <div className="biwedex-logo">
+              <img src={biwedex} alt="" />
+            </div></a>
           </div>
 
       </div>
