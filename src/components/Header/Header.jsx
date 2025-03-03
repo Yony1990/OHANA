@@ -14,13 +14,13 @@ const Header = () => {
 
       <div className={menuOpen ? "header-content active" : "header-content"}>
         <Link 
-          className='link'     
+          className={menuOpen ? 'link active' : 'link' }    
           to="inicio" 
           smooth={true} 
-          duration={500}
+          duration={1000}
           offset = { 0 } 
         >
-          <img src={logo} alt="logo" />
+          <img className={menuOpen ? 'img active' : 'img' } src={logo} alt="logo" />
         </Link>
         
 
@@ -104,7 +104,7 @@ const Header = () => {
             <Link 
               to="nosotros" 
               smooth={true} 
-              duration={1000}
+              duration={1500}
               offset = { -70 } 
               onClick={showMenu}
             >
@@ -118,7 +118,7 @@ const Header = () => {
             <Link 
               to="servicios" 
               smooth={true} 
-              duration={1000}
+              duration={1500}
               offset = { -70 } 
               onClick={showMenu}
             >
@@ -132,7 +132,7 @@ const Header = () => {
             <Link 
               to="calification" 
               smooth={true} 
-              duration={1000}
+              duration={1500}
               offset = { -100 } 
               onClick={showMenu}
             >
@@ -146,7 +146,7 @@ const Header = () => {
             <Link 
               to="maps" 
               smooth={true} 
-              duration={1000}
+              duration={1500}
               offset = { -70 } 
               onClick={showMenu}
             >

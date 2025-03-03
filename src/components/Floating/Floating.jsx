@@ -24,7 +24,7 @@ const Floating = () => {
         </div>
 
         <div className="adoption-modal">
-            <button onClick={showModal} className='adop-btn'><figure className='adop'></figure></button>
+            <button onClick={showModal} className='adop-btn'><span>adopta</span><figure className='adop'></figure></button>
             <div onClick={showModal} className={show ? "modal active" : "modal"}>
                 <div className="content-modal-adop">
                   <div className="content-info-adop">
@@ -49,7 +49,7 @@ const Floating = () => {
               duration={1000}
               offset = { -70 } 
             >
-              <button><i className="bi bi-caret-up"></i></button>
+              <button><span>inicio</span><i className="bi bi-caret-up"></i></button>
             </Link>
             
         </div>

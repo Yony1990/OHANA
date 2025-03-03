@@ -4,7 +4,8 @@
 
 .main-app{
   z-index: 5;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+  padding-bottom: 65px;
   margin-top: -2px;
   display: flex;
   flex-direction: column;

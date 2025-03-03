@@ -23,7 +23,7 @@
     justify-content: space-between;
     color: rgb(52, 0, 98);
     border-radius: 30px;
-    transition: .3s;
+    transition: .5s;
 }
 
 
@@ -36,16 +36,35 @@
 }
 
 .header-container .header-content .link {
-    height: 100%;
-    display: flex;
-    height: min-content;
-    padding-top: 1px;
-}
-
-.header-container img {
     width: 70px;
     height: 70px;
+    display: flex;
+    height: min-content;
+    position: relative;
+    top: 1px;
+    transition: .3s ease;
+    
+}
+
+.header-container .header-content .link.active {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    transition: .5s ease;
+}
+
+.header-container .img {
+    width: 100%;
+
     object-fit: contain;
+    transition: .5s ease;
+}
+
+.header-container .img.active {
+    width: 80%;
+    filter: opacity(.4) blur(5px);
+    transition: 1s linear;
 }
 
 .header-container .ul-1 {
@@ -172,6 +191,7 @@
     justify-content: center;
     color: rgb(29, 0, 57);
     gap: 50px;
+    z-index: 2;
 }
 
 .menuOpenAll ul li {
@@ -180,6 +200,66 @@
     position: relative;
     text-transform: uppercase;
     transition: .5s;
+}
+
+.menuOpenAll ul li:nth-child(1) {
+    animation: men 2.5s ease;
+}
+
+@keyframes men {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.menuOpenAll ul li:nth-child(2) {
+    animation: men 2s ease;
+}
+
+@keyframes men {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.menuOpenAll ul li:nth-child(3) {
+    animation: men 1.5s ease;
+}
+
+@keyframes men {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.menuOpenAll ul li:nth-child(4) {
+    animation: men 1s ease;
+}
+
+@keyframes men {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .menuOpenAll ul li .arrow {
@@ -221,8 +301,10 @@
     .header-container .header-content {
         align-items: start;
     }
+    
     .header-container .header-content .link {
-        height: 60px;
+        /* height: 60px; */
+        top: -5px;
         display: flex;
         align-items: center;
         justify-content: center;
