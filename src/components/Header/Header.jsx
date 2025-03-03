@@ -16,6 +16,7 @@ const Header = () => {
         <Link 
           className={menuOpen ? 'link active' : 'link' }    
           to="inicio" 
+          href='inicio'
           smooth={true} 
           duration={1000}
           offset = { 0 } 
@@ -28,6 +29,7 @@ const Header = () => {
 
           <li>
             <Link 
+              href='nosotros'
               to="nosotros" 
               smooth={true} 
               duration={1000}
@@ -41,6 +43,7 @@ const Header = () => {
 
           <li>
             <Link 
+              href="servicios"
               to="servicios" 
               smooth={true} 
               duration={1000}
@@ -54,6 +57,7 @@ const Header = () => {
 
           <li>
             <Link 
+              href='calification'
               to="calification" 
               smooth={true} 
               duration={1000}
@@ -67,6 +71,7 @@ const Header = () => {
           
           <li>
             <Link 
+              href="maps"
               to="maps" 
               smooth={true} 
               duration={1000}
@@ -102,6 +107,7 @@ const Header = () => {
 
           <li>
             <Link 
+              href="nosotros"
               to="nosotros" 
               smooth={true} 
               duration={1500}
@@ -116,6 +122,7 @@ const Header = () => {
 
           <li>
             <Link 
+              href="servicios"
               to="servicios" 
               smooth={true} 
               duration={1500}
@@ -130,7 +137,8 @@ const Header = () => {
 
           <li>
             <Link 
-              to="calification" 
+              to='calification'
+              href="calification" 
               smooth={true} 
               duration={1500}
               offset = { -100 } 
@@ -144,7 +152,8 @@ const Header = () => {
 
           <li>
             <Link 
-              to="maps" 
+              to='maps'
+              href="maps" 
               smooth={true} 
               duration={1500}
               offset = { -70 } 
