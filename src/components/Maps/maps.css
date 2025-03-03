@@ -148,8 +148,6 @@
 
 #maps .info-cont-redes .contacto-content{
     padding: 0 10px;
-    
-    
     border-radius: 15px;
     transition: all .3s ease;
     cursor: pointer;
@@ -332,3 +330,57 @@
     margin: 0;
 }
 
+@media (max-width: 450px) {
+    #maps .maps-container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #maps .maps-img-container {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #maps .maps-img-container  a {
+        width: 100%;
+    }
+    #maps .maps-img-content {
+        width: 100%;
+        
+        height: 300px;
+        background-color: rgba(138, 80, 188, 0.311);
+        box-shadow: 5px 10px 20px #723a8da1;
+        border-radius: 25px;
+        display: flex;
+        padding: 10px;
+    }
+    #maps .info-cont-redes {
+        width: 100%;
+    }
+    #maps .info-cont-redes .horario-content .horario span {
+        font-size: .9rem;
+    }
+    
+    #maps .info-cont-redes .info-cont-redes-1 {
+        padding: 10px;
+    }
+    #maps .info-cont-redes .contacto-content .contacto span {
+        font-size: .9rem;
+    }
+    #maps .maps-img-content .mapa-left .img-map-content p {
+        width: 300px;
+        position: relative;
+        left: -300px;
+        font-size: 2rem;
+        margin-top: -135px;
+        background-color: rgba(0, 0, 0, 0.573);
+        color: rgb(216, 142, 224);
+        border-radius: 0 30px 30px 0;
+        padding: 0 20px;
+        transition: all .4s linear;
+    }
+}

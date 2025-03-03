@@ -20,15 +20,11 @@ const Portada = () => {
 
       <figure className='bubble'></figure>
 
-      <figure className='bubble-2'>
-        
-      </figure>
+      <figure className='bubble-2'></figure>
 
       <figure className='bubble-3'></figure>
 
-      <figure className='bubble-4'>
-        
-      </figure>
+      <figure className='bubble-4'></figure>
 
       <figure className='bubble-5'></figure>
 

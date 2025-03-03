@@ -130,3 +130,16 @@
     background-color: rgb(235, 193, 233);
     position: absolute;
 }
+
+@media (max-width: 450px) {
+    .contact-info .adoption {
+        width: 350px;
+        margin-top: 20px;
+    }
+    .contact-info .adoption .content-info-adop p {
+        text-align: center;
+        font-size: .6rem;
+        margin-top: 5px;
+        font-family: "Sour Gummy", serif;
+    }
+}
