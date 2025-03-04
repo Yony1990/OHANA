@@ -392,7 +392,10 @@
     }
     #maps .preguntas {
         width: 100%;
-        background-color: red;
+
         
+    }
+    #maps .preguntas .preguntas-content {
+        padding: 0;
     }
 }

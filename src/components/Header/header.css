@@ -314,13 +314,10 @@
 
 
 @media (max-width: 750px) {
-    .header-container {
-        
-        padding: 5px 5px;
-    }
+    
     .header-container .header-content {
         align-items: start;
-        width: 100%;
+
     }
     
     .header-container .header-content .link {
