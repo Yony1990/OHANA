@@ -69,6 +69,7 @@
     filter: drop-shadow(0 0 10px rgba(25, 0, 44, 0.404));
     object-fit: contain;
     transition: .5s ease;
+    
 }
 
 .header-container .img.active {
@@ -317,7 +318,7 @@
     
     .header-container .header-content {
         align-items: start;
-
+        padding: 0 5px 0 0px;
     }
     
     .header-container .header-content .link {
