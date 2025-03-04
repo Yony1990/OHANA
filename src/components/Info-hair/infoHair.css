@@ -221,13 +221,23 @@
         height: 420px;
         overflow: hidden;
       }
+      .container-infoHair .text-info-hair {
+        width: 100%;
+      }
+      .container-infoHair .galery-slider-info-hair {
+        width: 100%;
+      }
     .container-infoHair {
+        padding: 0;
         background-color: red;
         /* height: 800px;
         width: 150px;
         margin-top: -200px;
         margin-bottom: -400px;
          */
+    }
+    .container-infoHair .swiper-slide .fondoSlider {
+        width: 100%;
     }
     #info-hair {
         width: 96%;
