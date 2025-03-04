@@ -3,8 +3,8 @@
 
 
 .portada-container {
-    
-    width: 100%;
+    position: relative;
+    width: 100vw;
     height: 100vh;
     font-family: "Caveat Brush", serif;
     display: flex;
@@ -24,6 +24,16 @@
 
     filter: drop-shadow(0 0 10px rgb(52, 0, 74));
 }
+
+/* .portada-container .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    background-color: red;
+    
+ } */
 
 .portada-container .text {
    display: flex;
@@ -80,32 +90,50 @@
     font-size:1.6rem;
    
 }
+/* .portada-container .perrito-seca {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    height: 283px;
+    background-color: rgba(255, 0, 0, 0.462);
+    background-image: url(../img/ohana-pelu.png);
+    filter: drop-shadow(0px -20px 20px rgba(17, 0, 25, 0.257));
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+
+} */
 
 .portada-container .perrito-seca {
     position: absolute;
     margin-left: 0px;
     margin-top: -342px;
+    
     width: 600px;
     height: 450px;
+    
     background-image: url(../img/ohanaaaaaa.webp);
     filter: drop-shadow(0px 0px 20px rgba(17, 0, 25, 0.423)) brightness(.7);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+
 }
 
 .portada-container .figura-bajo {
     z-index: -1;
-    position: absolute;
-    bottom: 0;
-    border-radius: 50% 50% 0px 0px ;
-    width: 100%;
-    height: 200px;
-    background-color: rgb(255, 204, 251);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  position: absolute;
+  bottom: 0;
+  border-radius: 50% 50% 0px 0px ;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(255, 204, 251);
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .portada-container .bubble {
