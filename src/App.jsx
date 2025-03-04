@@ -1,7 +1,7 @@
 
 import './App.css'
 import Baner from './components/Baner/Baner'
-
+import CalificationClient from './components/CalificationClient/CalificationClient'
 import Carousel from './components/Carousel/Carousel'
 import ClickSpark from './components/Click/ClickSpark'
 import Floating from './components/Floating/Floating'
@@ -45,7 +45,7 @@ function App() {
 
           <InfoHair/>
 
-          
+          <CalificationClient/>
 
           <Maps/>
 
