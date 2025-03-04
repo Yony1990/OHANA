@@ -237,11 +237,11 @@
     #floating .adoption-modal {
         position: absolute;
         
-        right: 20px;
+        right: 10px;
     }
     #floating .ir-inicio {
         position: absolute;
-        right: 40px;
+        right: 20px;
         margin-top: -100px;
     }
 }
