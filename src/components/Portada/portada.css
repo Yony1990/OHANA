@@ -308,7 +308,7 @@
     }
 
     .portada-container .bubble {
-        display: none;
+       
         left: -40px;
         top: -50px;
         width: 180px;
@@ -317,7 +317,7 @@
     }
     
     .portada-container .bubble-2 {
-        display: none;
+        
         left: -50px;
         bottom: 120px;
         width: 120px;
@@ -326,7 +326,7 @@
     }
 
     .portada-container .bubble-3 {
-        display: none;
+
         left: 200px;
         bottom: 300px;
         width: 80px;
@@ -335,7 +335,7 @@
     }
 
     .portada-container .bubble-4 {
-        display: none;
+
         right: 10px;
         top: -100px;
         width: 200px;
@@ -344,7 +344,7 @@
     }
 
     .portada-container .bubble-5 {
-        display: none;
+
         right: 250px;
         bottom: 250px;
         width: 70px;
@@ -353,7 +353,7 @@
     }
 
     .portada-container .bubble-6 {
-        display: none;
+        
         right: 15px;
         bottom: 50px;
         width: 150px;

@@ -6,7 +6,7 @@ import hullitas from "../img/fondo-huellitas.webp"
 const Portada = () => {
   return (
     <div id='inicio' className='portada-container'>
-      <img className='huellitas' src={hullitas} alt="" />
+      {/* <img className='huellitas' src={hullitas} alt="img" /> */}
 
       <section className='text'>
 
