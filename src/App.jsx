@@ -39,7 +39,7 @@ function App() {
         
           <Nosotros/>
  
-          <Floating/>
+          
 
           <Servicios/>
 
@@ -49,9 +49,10 @@ function App() {
 
           <Maps/>
 
-        
+          
           
         </main>
+        <Floating/>
         <Baner/>
         
         

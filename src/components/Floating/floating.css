@@ -1,7 +1,6 @@
 #floating {
-    position: sticky;
+    position: fixed;
     top: 96%;
-    background-color: red;
     width: 98vw;
     height: 1px;
     display: flex;
@@ -172,13 +171,14 @@
     animation-name: floa;
     animation-fill-mode: both;
     animation-timeline: --reveal;
-    animation-range: entry 500% cover 10%;
+    animation-range: entry 500% cover 100%;
 }
 @keyframes floa {
     0% {
         opacity: 0;
         filter: blur(20px);
     }
+
 
     100% {
         opacity: 1;
@@ -188,23 +188,26 @@
 
 #floating .btn-content-whatsap {
     position: absolute;
-    width: 100%;
+    width: min-content;
     display: none;
     align-items: center;
     justify-content: center;
+    bottom: 60px;
 }
+
 
 #floating .btn-content-whatsap .btn-whatsapp {
     /* color: rgb(119, 0, 222); */
     display: flex;
     justify-content: space-around;
-    width: 150px;
+    width: 50px;
+    height: 62px;
     color: rgb(224, 166, 222);
-   padding: 5px 10px 3px 10px;
+    scale: .6;
    background-color: #502276;
    font-family: "Sour Gummy", serif;
    font-size: 1.2rem;
-   border-radius: 17px;
+   border-radius: 50%;
    gap: 5px;
    letter-spacing: .5px;
    box-shadow: 5px 5px 15px rgba(15, 0, 31, 0.823);
@@ -212,7 +215,9 @@
 
  #floating .btn-content-whatsap .btn-whatsapp i {
     color: rgb(224, 166, 222);
-    font-size: 1.3rem;
+    font-size: 2.3rem;
+    position: relative;
+    top: 2px;
  }
  
  #floating .btn-content-whatsap .btn-whatsapp:hover {
@@ -238,11 +243,12 @@
     #floating .adoption-modal {
         position: absolute;
         
-        right: 10px;
+        right: 5px;
     }
     #floating .ir-inicio {
+        scale: .9;
         position: absolute;
-        right: 20px;
-        margin-top: -100px;
+        right: 15px;
+        margin-top: -90px;
     }
 }
