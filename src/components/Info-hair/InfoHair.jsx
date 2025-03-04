@@ -33,11 +33,7 @@ const InfoHair = () => {
             <img className='fondoSlider' src={fondo_slider} alt="fondo" />
            
             <article className='article-swiper'>
-                {/* Si tu perro pudiera hablar <span>¡HABLARÍA DE NOSOTROS!</span> <br />
-                Porque su apariencia también refleja el amor que le tienes.
-                <br /><br />
-                <span>‘OHANA SIGNIFICA FAMILIA’</span><br />
-                "Donde cada corte es un ladrido de felicidad."<br /><br /> */}
+               
                 <span>¿SABES QUE ES LO MEJOR PARA EL PELO DE TU PELUDITO?</span><br /><br />
                 Existen muchísimas razas de perros, cada una es única y responde a una morfología especial con una funcionalidad específica.
 

@@ -221,11 +221,16 @@
         height: 420px;
         overflow: hidden;
       }
-    /* .container-infoHair .mySwiper {
-        height: 800px;
+    .container-infoHair {
+        background-color: red;
+        /* height: 800px;
         width: 150px;
         margin-top: -200px;
         margin-bottom: -400px;
-        
-    } */
+         */
+    }
+    #info-hair {
+        background-color: blue;
+        padding: 0;
+    }
 }
