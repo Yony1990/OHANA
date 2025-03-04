@@ -207,6 +207,7 @@
     .container-infoHair .swiper-slide .fondoSlider {
         width: 75%;
         height: 50%;
+        opacity: 0.08;
     }
 
     .container-infoHair .article-swiper {
