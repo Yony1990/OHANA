@@ -217,7 +217,7 @@
 
 @media (max-width: 550px) {
     .container-infoHair .swiper {
-        width: 250px;
+        width: 200px;
         height: 420px;
         overflow: hidden;
       }
