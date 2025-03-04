@@ -29,7 +29,7 @@ const CalificationClient = () => {
             breakpoints={{
               340: {
                 slidesPerView: 1,
-                spaceBetween: 10,
+                spaceBetween: 40,
               },
               640: {
                 slidesPerView: 2,
