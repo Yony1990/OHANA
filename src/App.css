@@ -1,7 +1,9 @@
 /* .image-gallery-swipe {
   width: 100vw;
 } */
-
+.app {
+  width: 100vw;
+}
 .main-app{
   
   z-index: 5;
