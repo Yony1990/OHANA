@@ -28,9 +28,9 @@ h3 {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 450px) {
   .app {
     position: relative;
-    top: 20px;
+    top: -20px;
   }
 }
