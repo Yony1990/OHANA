@@ -315,6 +315,9 @@
 
 
 @media (max-width: 750px) {
+    .header-container {
+        margin-top: 10px;
+    }
     
     .header-container .header-content {
         align-items: start;
