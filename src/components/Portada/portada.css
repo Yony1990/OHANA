@@ -329,8 +329,8 @@
 
     .portada-container .bubble-4 {
 
-        right: 0px;
-        top: -50px;
+        right: 10px;
+        top: -100px;
         width: 200px;
         height: 200px;
         opacity: .5;
@@ -347,8 +347,8 @@
 
     .portada-container .bubble-6 {
 
-        right: 0px;
-        bottom: 150px;
+        right: 15px;
+        bottom: 50px;
         width: 150px;
         height: 150px;
         opacity: .5;
