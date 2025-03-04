@@ -2,14 +2,14 @@
     position: sticky;
     top: 96%;
     background-color: red;
-    width: 100vw;
+    width: 98vw;
     height: 1px;
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 0 ;
     z-index: 100;
     gap: 5px;
+
 
 }
 
