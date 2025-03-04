@@ -132,6 +132,9 @@
 }
 
 @media (max-width: 450px) {
+    .nosotros .info {
+        width: 100%;
+    }
     .contact-info .adoption {
         width: 350px;
         margin-top: 20px;

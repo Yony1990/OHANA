@@ -14,10 +14,8 @@
 
 body {
   background: linear-gradient(120deg, #966fc3, #7f65ab);
-  
   overflow-x: hidden;
   user-select: none;
-  
 }
 
 body::-webkit-scrollbar {
