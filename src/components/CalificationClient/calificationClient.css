@@ -9,6 +9,7 @@
     gap: 30px;
     margin-top: 50px;
     cursor: grab ;
+    background-color: red;
 }
 #calification:active {
     cursor: grabbing;
@@ -17,9 +18,10 @@
 #calification .swiper {
     padding: 30px 30px 50px 30px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     gap: 150px;
-    position: absolute;
+    position: relative;
+
 }
 
 #calification .swiper-slide {
@@ -137,14 +139,19 @@
 }
 
 @media (max-width: 450px) {
-    #calification .swiper-slide {
+    #calification {
         width: 100%;
+    }
+    #calification .swiper-slide {
+        
         scale: 1;
         
 
     }
     #calification .swiper {
         left: 0px;
+        padding: 0;
+        margin: 0 0;
     }
     
 }

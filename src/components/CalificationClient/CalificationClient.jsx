@@ -27,6 +27,10 @@ const CalificationClient = () => {
               clickable: true,
             }}
             breakpoints={{
+              340: {
+                slidesPerView: 1,
+                spaceBetween: 30,
+              },
               640: {
                 slidesPerView: 2,
                 spaceBetween: 20,
@@ -162,3 +166,7 @@ const CalificationClient = () => {
 }
 
 export default CalificationClient
+
+
+// <CalificationClient/>   
+// import CalificationClient from './components/CalificationClient/CalificationClient'
