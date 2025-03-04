@@ -353,6 +353,7 @@
     }
     #maps .maps-img-container  a {
         width: 100%;
+        
     }
     #maps .maps-img-content {
         width: 100%;
@@ -388,5 +389,10 @@
         border-radius: 0 30px 30px 0;
         padding: 0 20px;
         transition: all .4s linear;
+    }
+    #maps .preguntas {
+        width: 100%;
+        background-color: red;
+        
     }
 }
