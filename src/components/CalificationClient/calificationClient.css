@@ -141,18 +141,13 @@
 
 @media (max-width: 450px) {
     #calification {
-        width: 100vw;
+        width: 96%;
+        display: none;
     }
-    #calification .swiper-slide {
-        
-        scale: 1;
-        
-
-    }
+   
     #calification .swiper {
-        width: 90%;
-        
-        padding: 30px;
+        width: 100%;
+        padding: 0px;
         margin: 0 0;
     }
     
