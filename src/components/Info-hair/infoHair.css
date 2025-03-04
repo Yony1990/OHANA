@@ -10,11 +10,9 @@
 
 .container-infoHair {
     width: 100%;
-    /* border: solid 1px rgb(52, 0, 98); */
     border-radius: 25px;
     padding: 5px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3px;
@@ -35,7 +33,6 @@
     height: 390px;
     background-color: rgb(179, 118, 255);
     border-radius: 22px;
-
     position: relative;
     display: flex;
     overflow: scroll;
@@ -54,8 +51,7 @@
 .container-infoHair .swiper {
     width: 700px;
     height: 420px;
-    
-  }
+}
   
 .container-infoHair .swiper-slide {
     display: flex;
@@ -66,24 +62,22 @@
     font-weight: bold;
     color: #fff;
     box-shadow: 5px 10px 30px rgba(17, 0, 25, 0.424);
-  }
+}
 
-.container-infoHair .swiper-slide:nth-child(1n) {
+.container-infoHair .swiper-slide:nth-child(1) {
     width: 100%;
     background-color: #f290ff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 15px;
-  }
+}
 
   .container-infoHair .swiper-slide .fondoSlider {
     position: absolute;
     width: 300px;
     height: 275px;
-
     opacity: .1;
-
 }  
 
 .container-infoHair .swiper-slide .img-info {
@@ -126,7 +120,6 @@
     margin-left: -50%;
     width: 45%;
     filter: drop-shadow(0 0 40px rgb(203, 211, 255));
-    
 }
 
 .container-infoHair .swiper-p {
@@ -140,7 +133,6 @@
     font-weight: normal;
     animation: text .5s ease;
     font-family: 'Afacad Flux', sans-serif;
-    
 }
 
 @keyframes text {
@@ -153,7 +145,6 @@
 }
 
 .container-infoHair .swiper-p-2 {
-    /* background-color: #f290ff45; */
     position: absolute;
     margin-left: 390px;
     text-align: center;
@@ -182,7 +173,6 @@
 }
 
 .container-infoHair .swiper-p-4 {
-    /* background-color: #f290ff45; */
     position: absolute;
     margin-left: 280px;
     text-align: center;
@@ -204,10 +194,6 @@
     font-family: 'Afacad Flux', sans-serif;
 }
 
-/* .article-swiper span {
-    font-family: "Sour Gummy", serif;
-    font-weight: 700;
-} */
 
 .container-infoHair .swiperSlide span {
     font-family: "Sour Gummy", serif;
@@ -216,8 +202,138 @@
 }
 
 @media (max-width: 550px) {
+
+    
+    .container-infoHair .swiper-slide .fondoSlider {
+        width: 75%;
+        height: 50%;
+    }
+
+    .container-infoHair .article-swiper {
+        z-index: 2;
+        text-align: center;
+        padding: 10px;
+        font-size: .85rem;
+        
+    }
+    .container-infoHair .article-swiper span {
+        position: relative;
+        top: 10px;
+    }
+
+
+
+
+    .container-infoHair .swiperSlide .img-info {
+      
+        height: 50%;
+        width: 100%;
+        position: relative;
+    }
+    .container-infoHair .swiperSlide .swiper-p {
+       
+        height: 50%;
+        width: 100%;
+        position: relative;
+        padding: 0px 7px;
+        left: 0px;
+        font-size: .93rem;
+    }
+    .container-infoHair .swiperSlide .swiper-p span:nth-child(1) {
+        position: relative;
+        top: 15px;
+    }
+    
+    .container-infoHair .swiper-slide:nth-child(2) .img-info{
+        margin-left: 0%;
+        width: 70%;
+        height: 60%;
+        margin-bottom: -50px;
+    }
+
+    .container-infoHair .swiperSlide .swiper-p-2 {
+       
+        height: 50%;
+        width: 100%;
+        position: relative;
+        padding: 0px 7px;
+        margin-left: 0px;
+        font-size: .93rem;
+        
+        
+    }
+    .container-infoHair .swiperSlide .swiper-p-2 span:nth-child(1) {
+        position: relative;
+        top: 15px;
+    }
+
+    .container-infoHair .swiper-slide:nth-child(3) .img-info{
+        margin-left: 0%;
+        width:92%;
+        height: 60%;
+        margin-bottom: -60px;
+        margin-right: 90px;
+    }
+
+    .container-infoHair .swiperSlide .swiper-p-3 {
+       
+        height: 50%;
+        width: 100%;
+        position: relative;
+        padding: 0px 7px;
+        left: 0px;
+        bottom: 20px;
+        font-size: .93rem;
+        
+        
+    }
+    .container-infoHair .swiperSlide .swiper-p-3 span:nth-child(1) {
+        position: relative;
+        top: 15px;
+    }
+
+    .container-infoHair .swiper-slide:nth-child(4) .img-info{
+        
+        width: 70%;
+        height: 50%;
+        margin-bottom: -80px;
+        margin-left: 50px;
+    }
+
+    .container-infoHair .swiperSlide .swiper-p-4 {
+        margin-left: 0px;
+        height: 50%;
+        width: 100%;
+        position: relative;
+        padding: 0px 7px;
+        left: 0px;
+        bottom: 10px;
+        font-size: .93rem;
+        
+        
+    }
+    .container-infoHair .swiperSlide .swiper-p-4 span:nth-child(1) {
+        position: relative;
+        top: 15px;
+    }
+
+    .container-infoHair .swiper-slide:nth-child(5) .img-info{
+        
+        width: 70%;
+        height: 50%;
+        margin-bottom: -70px;
+        margin-left: 0px;
+    }
+
+
+
+
+    .container-infoHair .swiper-slide {
+        
+        flex-wrap: wrap-reverse;
+    }
     .container-infoHair .swiper {
-        width: 100px;
+        width: 260px;
         height: 420px;
         overflow: hidden;
       }
@@ -229,19 +345,11 @@
       }
     .container-infoHair {
         padding: 0;
-        background-color: red;
-        /* height: 800px;
-        width: 150px;
-        margin-top: -200px;
-        margin-bottom: -400px;
-         */
+
     }
-    .container-infoHair .swiper-slide .fondoSlider {
-        width: 100%;
-    }
+   
     #info-hair {
-        width: 96%;
-        background-color: blue;
+        width: 100%;
         padding: 0;
     }
 }

@@ -159,11 +159,9 @@ const Maps = () => {
                         aria-controls="panel3bh-content"
                         id="panel3bh-header"
                         >
-                        {/* <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
-                            Advanced settings
-                        </Typography> */}
+                        
                         <Typography component="span" sx={{ color: 'text.secondary' }}>
-                            ¿Qué debo llevar el día de la cita?
+                            ¿Qué debo llevar el día de la cita de mi mascota?
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
@@ -179,9 +177,7 @@ const Maps = () => {
                         aria-controls="panel1bh-content"
                         id="panel1bh-header"
                         >
-                        {/* <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
-                            General settings
-                        </Typography> */}
+                        
                         <Typography component="span" sx={{ color: 'text.secondary' }}>
                             ¿Cómo preparo a mi perro para su visita a la peluquería?
                         </Typography>
@@ -202,11 +198,9 @@ const Maps = () => {
                         aria-controls="panel1bh-content"
                         id="panel1bh-header"
                         >
-                        {/* <Typography component="span" sx={{ width: '33%', flexShrink: 0 }}>
-                            General settings
-                        </Typography> */}
+                        
                         <Typography component="span" sx={{ color: 'text.secondary' }}>
-                           ¿Qué productos utilizan en los perros?
+                           ¿Qué productos utilizan en los perros de piel sensible?
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails>
