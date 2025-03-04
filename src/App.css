@@ -27,3 +27,10 @@ h3 {
     padding-bottom: 65px;
   }
 }
+
+@media (max-width: 750px) {
+  .app {
+    position: relative;
+    top: 20px;
+  }
+}
