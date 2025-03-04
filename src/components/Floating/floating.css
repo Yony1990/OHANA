@@ -242,9 +242,14 @@
 
     #floating .adoption-modal {
         position: absolute;
-        scale: .85;
+        
         right: -12px;
     }
+
+    #floating button .adop {
+        scale: .85;
+    }
+
     #floating .ir-inicio {
         scale: .9;
         position: absolute;
