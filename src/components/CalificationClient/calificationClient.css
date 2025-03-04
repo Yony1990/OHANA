@@ -109,6 +109,7 @@
 #calification .swiper-pagination {
     position: relative;
     top: 5px;
+    width: 100%;
 }
 
 
@@ -140,7 +141,7 @@
 
 @media (max-width: 450px) {
     #calification {
-        width: 100%;
+        width: 100vw;
     }
     #calification .swiper-slide {
         
