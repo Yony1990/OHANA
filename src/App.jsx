@@ -32,13 +32,13 @@ function App() {
         extraScale={0.7}
       >
       
-        
+      
         <Header />
         <Portada/>
         <main className='main-app'>
-
+        
           <Nosotros/>
-
+ 
           <Floating/>
 
           <Servicios/>
@@ -49,9 +49,7 @@ function App() {
 
           <Maps/>
 
-          
-
-          {/* <Carousel /> */}
+        
           
         </main>
         <Baner/>

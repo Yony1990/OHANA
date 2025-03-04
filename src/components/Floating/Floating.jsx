@@ -17,6 +17,7 @@ const Floating = () => {
 
   return (
     <section id='floating'>
+  
         <div className="btn-content-whatsap">
           <a href="https://wa.me/59891554406">
             <Button className='btn-whatsapp' size='small' variant="contained"><i className="bi bi-whatsapp"></i> Agendate</Button>
