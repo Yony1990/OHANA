@@ -59,7 +59,7 @@
     background-size: cover;
     background-position: calc() 0;
     filter: contrast(2) saturate(.4);
-    opacity: .4;
+    opacity: .2;
 }
 
 .servicios-cards ul li span {
@@ -73,19 +73,24 @@
 
 .servicios-cards ul li svg {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     /* background-color: #8b3ffcb1; */
     margin-top: -120px;
     margin-left: -12px;
+}
+
+.servicios-cards ul li:nth-child(2) svg {
+    width: 150px;
+    height: 150px;
 }
 
 .servicios-cards ul li:nth-child(3) svg {
     margin-top: -100px;
     margin-left: 10px;
     rotate: -80deg;
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
 }
 
 .servicios-cards ul li:nth-child(4) svg {
@@ -99,8 +104,8 @@
 }
 
 .servicios-cards ul li:nth-child(6) svg {
-    width: 170px;
-    height: 170px;
+    width: 155px;
+    height: 155px;
     margin-left: -17px;
 }
 
