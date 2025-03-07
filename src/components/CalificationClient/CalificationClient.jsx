@@ -22,7 +22,7 @@ const CalificationClient = () => {
           <h3>EL CLIENTE NOS CUENTA</h3>
           <Swiper
             slidesPerView={1}
-            spaceBetween={10}
+            spaceBetween={40}
             pagination={{
               clickable: true,
             }}

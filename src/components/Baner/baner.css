@@ -5,7 +5,7 @@
 }
 
 .baner .container-baner {
-    padding: 0 50px;
+    padding: 30px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,6 +72,12 @@
 @media (max-width: 850px) {
     .baner .container-baner {
         padding: 30px 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .baner .container-baner {
+        justify-content: space-around;
     }
 }
 
