@@ -9,7 +9,6 @@
     gap: 30px;
     margin-top: 50px;
     cursor: grab ;
-    background-color: red;
 }
 #calification:active {
     cursor: grabbing;
@@ -25,7 +24,7 @@
 }
 
 #calification .swiper-slide {
-    
+    border-radius: 20px;
     text-align: center;
     font-size: 18px;
     background: #7a90d8;
@@ -147,11 +146,11 @@
 
     }
    
-    #calification .swiper {
+    /* #calification .swiper {
         width: 100%;
         padding: 0px;
         margin: 0 0;
-    }
+    } */
     
 }
 

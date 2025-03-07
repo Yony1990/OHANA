@@ -1,7 +1,7 @@
 .baner {
     width: 100%;
     height: max-content;
-
+    
 }
 
 .baner .container-baner {
@@ -13,6 +13,7 @@
     width: 100%;
     height: max-content;
     gap: 20px;
+    
 }
 
 .logo-ohana img{
