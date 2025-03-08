@@ -63,7 +63,7 @@
 
 #maps .maps-img-content .mapa-left  article .address {
     font-size: 1.5rem;
-    font-family: 'Afacad Flux', sans-serif;
+   
     color: rgb(237, 200, 255);
     display: flex;
     align-items: center;
@@ -165,13 +165,9 @@
 }
 
 #maps .info-cont-redes .contacto-content .contacto article {
-    font-family: 'Afacad Flux', sans-serif;
+   
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-#maps .info-cont-redes .contacto-content .contacto span {
-    font-family: 'Afacad Flux', sans-serif;
 }
 
 #maps .info-cont-redes .horario-content{
@@ -189,13 +185,9 @@
 }
 
 #maps .info-cont-redes .horario-content .horario article {
-    font-family: 'Afacad Flux', sans-serif;
+   
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-#maps .info-cont-redes .horario-content .horario span {
-    font-family: 'Afacad Flux', sans-serif;
 }
 
 #maps .info-cont-redes .redes-content {
@@ -218,7 +210,7 @@
 }
 
 #maps .info-cont-redes .redes-content .redes-insta article {
-    font-family: 'Afacad Flux', sans-serif;
+  
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -281,7 +273,7 @@
     background-color: rgb(164, 94, 211);
     border-radius: 20px;
     text-align: center;
-    font-family: 'Afacad Flux', sans-serif;
+   
     box-shadow: 5px 10px 20px #723a8da1;
     transition: all .3s ease;
 }

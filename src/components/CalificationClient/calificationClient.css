@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Afacad Flux', sans-serif;
+   
     padding: 0 5px;
 }
 
@@ -75,7 +75,7 @@
 #calification .swiper-slide p {
     display: flex;
     gap: 30px;
-    font-family: 'Afacad Flux', sans-serif;
+  
     font-size: 1rem;
 }
 
@@ -100,7 +100,7 @@
 
 #calification .swiper-slide .name-father {
     color: rgb(66, 1, 123);
-    font-family: 'Afacad Flux', sans-serif;
+   
     font-size: 1rem;
     gap: 10px ;
 }

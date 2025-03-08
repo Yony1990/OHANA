@@ -132,7 +132,6 @@
     color: rgb(23, 23, 23);
     font-weight: normal;
     animation: text .5s ease;
-    font-family: 'Afacad Flux', sans-serif;
 }
 
 @keyframes text {
@@ -153,7 +152,7 @@
     font-size: 1.1rem;
     color: rgb(23, 23, 23);
     font-weight: normal;
-    font-family: 'Afacad Flux', sans-serif;
+   
 }
 
 .container-infoHair .swiper-p-3 {
@@ -165,11 +164,6 @@
     left: -180px;
     color: rgb(23, 23, 23);
     font-weight: normal;
-    font-family: 'Afacad Flux', sans-serif;
-}
-.container-infoHair .swiper-p-3 .span-parent, .container-infoHair .swiper-p-2 .span-parent, .container-infoHair .swiper-p .span-parent {
-    font-weight: 750;
-    font-family: 'Afacad Flux', sans-serif;
 }
 
 .container-infoHair .swiper-p-4 {
@@ -181,7 +175,7 @@
     font-size: 1.1rem;
     color: rgb(23, 23, 23);
     font-weight: normal;
-    font-family: 'Afacad Flux', sans-serif;
+  
 }
 
 .container-infoHair .article-swiper {
@@ -191,7 +185,7 @@
     font-size: 1.1rem;
     color: rgb(23, 23, 23);
     font-weight: normal;
-    font-family: 'Afacad Flux', sans-serif;
+   
 }
 
 
