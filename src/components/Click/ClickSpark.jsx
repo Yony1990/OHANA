@@ -1,16 +1,17 @@
-import { useRef, useEffect, useCallback } from "react";
+import { useRef, useEffect, useCallback, useState } from "react";
 
 
 const ClickSpark = ({
-  sparkColor = "#fff",
-  sparkSize = 10,
-  sparkRadius = 15,
-  sparkCount = 8,
-  duration = 400,
+  sparkColor = "rgb(147, 77, 208)",
+  sparkSize = 11,
+  sparkRadius = 50,
+  sparkCount = 14,
+  duration = 500,
   easing = "ease-out",
-  extraScale = 1.0,
+  extraScale = 0.7,
   children
 }) => {
+
   const canvasRef = useRef(null);
   const sparksRef = useRef([]);     
   const startTimeRef = useRef(null); 
