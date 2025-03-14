@@ -342,10 +342,11 @@
         justify-content: center;
         flex-direction: column;
         gap: 20px;
+        margin-top: 30px;
     }
     #maps .maps-img-container  a {
-        width: 100%;
-        
+        width: 100%;  
+        margin-top: 5px;
     }
     #maps .maps-img-content {
         width: 100%;
@@ -384,11 +385,11 @@
     }
     #maps .preguntas {
         width: 100%;
-
-        
+        margin-top: 10px; 
     }
+    
     #maps .preguntas .preguntas-content {
-        padding: 0;
+        padding: 10px 0;
     }
 }
 

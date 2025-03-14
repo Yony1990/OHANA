@@ -127,6 +127,9 @@
 }
 
 @media (max-width: 450px) {
+    #calification {
+        margin-top: 70px;
+    }
     #calification .swiper-slide p {
         line-height: normal;
     }
