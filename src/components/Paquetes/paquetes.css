@@ -161,11 +161,13 @@
 .paque .silu-peque {
     width: 55px;
     height: 60px;
+    transform: scaleX(-1);
 }
 
 .paque .silu-medio {
     width: 75px;
     height: 70px;
+    transform: scaleX(-1);
 }
 .paque .silueta-medio {
     margin-top: -3.5%;
@@ -177,6 +179,7 @@
 .paque .silu-grande {
     width: 100px;
     height: 90px;
+    transform: scaleX(-1);
 }
 .paque .silueta-grande {
     margin-top: -7.5%;
@@ -189,7 +192,8 @@
     width: 128px;
     height: 120px;
     position: relative;
-    left: 15px;
+    left: 5px;
+    transform: scaleX(-1);
 }
 .paque .silueta-giga {
     margin-top: -10%;
