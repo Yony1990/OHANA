@@ -208,7 +208,7 @@
         z-index: 2;
         text-align: center;
         padding: 10px;
-        font-size: .85rem;
+        font-size: .9rem;
         
     }
     .container-infoHair .article-swiper span {
@@ -230,9 +230,9 @@
         height: 50%;
         width: 100%;
         position: relative;
-        padding: 0px 7px;
+        padding: 0px 20px;
         left: 0px;
-        font-size: .93rem;
+        font-size: .95rem;
     }
     .container-infoHair .swiperSlide .swiper-p span:nth-child(1) {
         position: relative;
@@ -251,9 +251,9 @@
         height: 50%;
         width: 100%;
         position: relative;
-        padding: 0px 7px;
+        padding: 0px 20px;
         margin-left: 0px;
-        font-size: .93rem;
+        font-size: .95rem;
         
         
     }
@@ -264,7 +264,7 @@
 
     .container-infoHair .swiper-slide:nth-child(3) .img-info{
         margin-left: 0%;
-        width:92%;
+        width:110%;
         height: 60%;
         margin-bottom: -60px;
         margin-right: 90px;
@@ -275,12 +275,11 @@
         height: 50%;
         width: 100%;
         position: relative;
-        padding: 0px 7px;
+        padding: 0px 20px;
         left: 0px;
         bottom: 20px;
-        font-size: .93rem;
-        
-        
+        font-size: .95rem;
+
     }
     .container-infoHair .swiperSlide .swiper-p-3 span:nth-child(1) {
         position: relative;
@@ -289,7 +288,7 @@
 
     .container-infoHair .swiper-slide:nth-child(4) .img-info{
         
-        width: 70%;
+        width: 90%;
         height: 50%;
         margin-bottom: -80px;
         margin-left: 50px;
@@ -300,10 +299,10 @@
         height: 50%;
         width: 100%;
         position: relative;
-        padding: 0px 7px;
+        padding: 0px 20px;
         left: 0px;
         bottom: 10px;
-        font-size: .93rem;
+        font-size: .95rem;
         
         
     }
@@ -329,18 +328,17 @@
     }
     .container-infoHair .swiper {
         width: 260px;
-        height: 420px;
+        height: 520px;
         overflow: hidden;
-      }
-      .container-infoHair .text-info-hair {
+    }
+    .container-infoHair .text-info-hair {
         width: 100%;
-      }
-      .container-infoHair .galery-slider-info-hair {
+    }
+    .container-infoHair .galery-slider-info-hair {
         width: 100%;
-      }
+    }
     .container-infoHair {
         padding: 0;
-
     }
    
     #info-hair {
