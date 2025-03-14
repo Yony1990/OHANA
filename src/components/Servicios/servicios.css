@@ -37,15 +37,15 @@
     list-style: none;
     width: 250px;
     height: 320px;
-    background-color: rgba(153, 90, 208, 0.311);
+    background-color: rgba(245, 199, 251, 0.311);
     box-shadow: 5px 10px 20px rgba(17, 0, 25, 0.424);
-    transition: all .3s linear;
+    transition: all .3s;
 }
 
 .servicios-cards ul li:hover {
-    scale: 1.1;
-    background-color: rgba(153, 90, 208, 0.779);
-    box-shadow: 5px 10px 20px #3e025aa1;
+    transform: translateY(-10px);
+    background-color: rgba(204, 131, 241, 0.779);
+    /* box-shadow: 5px 10px 20px #3e025aa1; */
 }
 
 .servicios-cards ul li .esquina {
@@ -169,6 +169,6 @@
 }
 
 .servicios-cards ul li Button:hover {
-    background-color: #9753cf;
-    color: rgb(224, 166, 222);
+    background-color: rgb(86, 22, 123);
+    color: rgb(244, 190, 242);
 }

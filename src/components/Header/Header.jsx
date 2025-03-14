@@ -137,6 +137,21 @@ const Header = () => {
 
           <li>
             <Link 
+              href="ofertas"
+              to="ofertas" 
+              smooth={true} 
+              duration={1500}
+              offset = { -70 } 
+              onClick={showMenu}
+            >
+              Ofertas
+              <div className="arrow"></div>
+            </Link>
+            
+          </li>
+
+          <li>
+            <Link 
               to='calification'
               href="calification" 
               smooth={true} 
@@ -152,8 +167,23 @@ const Header = () => {
 
           <li>
             <Link 
-              to='maps'
-              href="maps" 
+              to='preguntas'
+              href="preguntas" 
+              smooth={true} 
+              duration={1500}
+              offset = { -70 } 
+              onClick={showMenu}
+            >
+              Consultas
+              <div className="arrow-XL"></div>
+            </Link>
+            
+          </li>
+
+          <li>
+            <Link 
+              to='encuentranos'
+              href="encuentranos" 
               smooth={true} 
               duration={1500}
               offset = { -70 } 
@@ -164,6 +194,8 @@ const Header = () => {
             </Link>
             
           </li>
+
+          
 
         </ul>
         </div>

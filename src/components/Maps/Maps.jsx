@@ -25,7 +25,7 @@ const Maps = () => {
 
             <div className="maps-img-container">
 
-                <h3>Encuéntranos</h3>
+                <h3 id='encuentranos'>Encuéntranos</h3>
 
                 <a href="https://maps.app.goo.gl/GxUAdLzKcnLashvF6">
                     

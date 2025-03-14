@@ -1,0 +1,209 @@
+.paquetes-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paquetes-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 60px 20px 0 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.paquetes-container .fondo-huella {
+    width: 100%;
+    object-fit: cover;
+}
+
+.paque {
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: rgb(255, 210, 250);
+    background-image: url(../img//fondo-paquetes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: saturate(1.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    font-size: 1.1rem;
+    color: rgb(50, 35, 63);
+    transition: .3s;
+    box-shadow: 5px 10px 20px rgba(17, 0, 25, 0.424);
+}
+
+.paque:hover {
+    transform: translateY(-10px);
+    filter: saturate(2) ;
+}
+
+.paque .top-paque {
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paque .top-paque .span-top-paque {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.paque .top-paque .span-top-paque span:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Sour Gummy", serif;
+    color: rgb(50, 35, 63);
+}
+
+.paque .top-paque .span-top-paque span:nth-child(2) {
+    color: rgb(255, 221, 253);
+    background-color: rgb(141, 84, 248);
+    border-radius: 10px;
+    width: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0px;
+    font-size: 1rem;
+}
+
+.images-paque {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.paque .marco {
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 2px;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    filter: saturate(.5);
+}
+
+.paque .avatar-paque {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(24, 0, 52, 0.525);
+    border: solid 5px rgba(56, 33, 98, 0.489);
+    filter: saturate(.7) ;
+}
+
+.paque:hover .avatar-paque {
+    filter: saturate(.7) ;
+}
+
+.paque p {
+    font-weight: 600;
+}
+
+.paque ul{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.paque ul li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-weight: 550;
+}
+
+.paque ul li i {
+    color: rgb(98, 32, 219);
+}
+
+.paque Button {
+
+    color: rgb(38, 0, 71);
+    padding: 7px 50px 5px 50px;
+    background-color: #f290ff;
+    
+    font-family: "Sour Gummy", serif;
+    border-radius: 12px;
+    gap: 5px;
+    letter-spacing: .5px;
+}
+
+.paque .silueta {
+    position: absolute;
+    display: flex;
+    align-items: end;
+    right: 20px;
+    top: 57%;
+    opacity: .4;
+}
+
+.paque .silu-peque {
+    width: 55px;
+    height: 60px;
+}
+.paque .silu-medio {
+    width: 75px;
+    height: 70px;
+}
+.paque .silueta-medio {
+    margin-top: -3.5%;
+}
+.paque .silueta-medio .flecha {
+    height: 60px;
+}
+
+.paque .silu-grande {
+    width: 95px;
+    height: 90px;
+}
+.paque .silueta-grande {
+    margin-top: -7.5%;
+}
+.paque .silueta-grande .flecha {
+    height: 80px;
+}
+
+.paque .silu-giga {
+    width: 128px;
+    height: 120px;
+    position: relative;
+    left: 15px;
+}
+.paque .silueta-giga {
+    margin-top: -10%;
+}
+.paque .silueta-giga .flecha {
+    height: 100px;
+}
+
+.paque .silueta .medid {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.paque .silueta .flecha {
+    width: 14px;
+}
+
+.paque Button:hover {
+    background-color: rgb(86, 22, 123);
+    color: rgb(244, 190, 242);
+}

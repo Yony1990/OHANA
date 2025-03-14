@@ -1,6 +1,7 @@
 import React from 'react'
 import "./servicios.css"
 import { Button } from '@mui/material'
+import Paquetes from '../Paquetes/Paquetes'
 
 const Servicios = () => {
   return (
@@ -73,6 +74,8 @@ const Servicios = () => {
                 </li>
             </ul>
         </div>
+
+        <Paquetes/>
         
       
     </section>

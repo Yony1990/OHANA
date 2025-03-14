@@ -367,8 +367,8 @@
     #maps .info-cont-redes .info-cont-redes-1 {
         padding: 10px;
     }
-    #maps .info-cont-redes .contacto-content .contacto span {
-        font-size: .9rem;
+    #maps .info-cont-redes .contacto-content .contacto span, #maps .info-cont-redes .horario-content .horario span {
+        font-size: .8rem;
     }
     #maps .maps-img-content .mapa-left .img-map-content p {
         width: 300px;
@@ -389,5 +389,11 @@
     }
     #maps .preguntas .preguntas-content {
         padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #maps .info-cont-redes .contacto-content .contacto span, #maps .info-cont-redes .horario-content .horario span {
+        font-size: .66rem;
     }
 }
