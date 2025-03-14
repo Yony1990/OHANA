@@ -1,15 +1,15 @@
 import React from 'react'
 import './paquetes.css'
 
-import peque from "../img/paquetes/peque-6.jpg"
-import medio from "../img/paquetes/medio-sisi.jpg"
-import grande from "../img/paquetes/grande-si.jpg"
-import gigan from "../img/paquetes/gigante-si.jpg"
-import siluPeque from "../img/paquetes/silueta-peque.png"
-import siluMedio from "../img/paquetes/silueta-medio.png"
-import siluGrande from "../img/paquetes/silueta-grande.png"
-import siluGiga from "../img/paquetes/silueta-gigante.png"
-import flecha from "../img/paquetes/flecha.png"
+import peque from "../img/paquetes/peque-6.webp"
+import medio from "../img/paquetes/medio-sisi.webp"
+import grande from "../img/paquetes/grande-si.webp"
+import gigan from "../img/paquetes/gigante-si.webp"
+import siluPeque from "../img/paquetes/silueta-peque.webp"
+import siluMedio from "../img/paquetes/silueta-medio.webp"
+import siluGrande from "../img/paquetes/silueta-grande.webp"
+import siluGiga from "../img/paquetes/silueta-gigante.webp"
+import flecha from "../img/paquetes/flecha.webp"
 
 import { Button } from '@mui/material'
 

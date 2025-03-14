@@ -26,7 +26,7 @@
     height: 500px;
     border-radius: 15px;
     background-color: rgb(255, 210, 250);
-    background-image: url(../img//fondo-paquetes.png);
+    background-image: url(../img//fondo-paquetes.webp);
     background-size: cover;
     background-repeat: no-repeat;
     filter: saturate(1.5);
