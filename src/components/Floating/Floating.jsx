@@ -50,7 +50,7 @@ const Floating = () => {
               duration={1000}
               offset = { -70 } 
             >
-              <button><span>inicio</span><i className="bi bi-caret-up"></i></button>
+              <button className='btn-floa'><span>inicio</span><i className="bi bi-caret-up"></i></button>
             </Link>
             
         </div>
