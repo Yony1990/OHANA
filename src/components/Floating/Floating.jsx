@@ -45,6 +45,7 @@ const Floating = () => {
 
         <div className="ir-inicio">
             <Link 
+              href='inicio'
               to="inicio" 
               smooth={true} 
               duration={1000}

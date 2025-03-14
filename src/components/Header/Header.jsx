@@ -57,6 +57,21 @@ const Header = () => {
 
           <li>
             <Link 
+              href="ofertas"
+              to="ofertas" 
+              smooth={true} 
+              duration={1500}
+              offset = { -90 } 
+              
+            >
+              Ofertas
+              <div className="arrow-O"></div>
+            </Link>
+            
+          </li>
+
+          <li>
+            <Link 
               href='calification'
               to="calification" 
               smooth={true} 

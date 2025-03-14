@@ -145,6 +145,10 @@
     letter-spacing: .5px;
 }
 
+.paque:hover Button {
+    filter: saturate(.74) ;
+}
+
 .paque .silueta {
     position: absolute;
     display: flex;

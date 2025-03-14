@@ -85,7 +85,7 @@
     
 }
 
-.header-container .ul-1 li .arrow, .header-container ul li .arrow-L, .header-container ul li .arrow-S {
+.header-container .ul-1 li .arrow, .header-container .ul-1 li .arrow-O, .header-container ul li .arrow-L, .header-container ul li .arrow-S {
     border-radius: 10px;
     width: 0px;
     height: 2px;
@@ -101,6 +101,9 @@
 
 .header-container .ul-1 li:hover .arrow{
     width: 68px;
+}
+.header-container .ul-1 li:hover .arrow-O{
+    width: 58px;
 }
 .header-container .ul-1 li:hover .arrow-S{
     width: 62px;
