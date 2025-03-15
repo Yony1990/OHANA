@@ -228,6 +228,11 @@
     top: 2px;
 }
 
+#floating .btn-content-whatsap a span {
+    position: absolute;
+    opacity: 0;
+}
+
 @media (max-width: 750px) {
     #floating .btn-content-whatsap {
         display: flex;
