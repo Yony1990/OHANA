@@ -99,8 +99,9 @@ const Header = () => {
           </li>
 
         </ul>
-        <a href="https://wa.me/59891554406">
-          <Button size='small' variant="contained"><i className="bi bi-whatsapp"></i> Agendate</Button>
+        <a className='whatsapp-name' href="https://wa.me/59891554406">
+          <span>Whatsapp</span>
+          <Button size='small' variant="contained"><i className="bi bi-whatsapp"></i> Agendate<span>Whatsapp</span></Button>
         </a>
 
         <div onClick={showMenu} className="menu-x">
