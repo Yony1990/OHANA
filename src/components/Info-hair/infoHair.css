@@ -287,8 +287,9 @@
     }
 
     .container-infoHair .swiper-slide:nth-child(4) .img-info{
-        
-        width: 90%;
+
+
+        width: 70%;
         height: 50%;
         margin-bottom: -80px;
         margin-left: 50px;
@@ -327,7 +328,7 @@
         flex-wrap: wrap-reverse;
     }
     .container-infoHair .swiper {
-        width: 280px;
+        width: 300px;
         height: 520px;
         overflow: hidden;
     }
