@@ -219,7 +219,7 @@
 }
 
 .menuOpenAll ul li:nth-child(1) {
-    animation: men 2s ease;
+    animation: men 1.1s ease;
 }
 
 @keyframes men {
@@ -234,7 +234,7 @@
 }
 
 .menuOpenAll ul li:nth-child(2) {
-    animation: men 1.5s ease;
+    animation: men .9s ease;
 }
 
 @keyframes men {
@@ -249,7 +249,7 @@
 }
 
 .menuOpenAll ul li:nth-child(3) {
-    animation: men 1s ease;
+    animation: men .7s ease;
 }
 
 @keyframes men {
