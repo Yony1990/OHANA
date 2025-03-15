@@ -21,7 +21,7 @@ const Floating = () => {
         <div className="btn-content-whatsap">
           <a href="https://wa.me/59891554406">
             <span>Whatsapp</span>
-            <Button className='btn-whatsapp' size='small' variant="contained"><i className="bi bi-whatsapp"></i></Button>
+            <Button className='btn-whatsapp' size='small' variant="contained"><i className="bi bi-whatsapp"><span>Whatsapp</span></i></Button>
           </a>
         </div>
 
