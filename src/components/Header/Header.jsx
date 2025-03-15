@@ -21,7 +21,7 @@ const Header = () => {
           duration={1000}
           offset = { 0 } 
         >
-          <img className={menuOpen ? 'img active' : 'img' } src={logo} alt="logo" />
+          <img className='img' src={logo} alt="logo" />
         </Link>
         
 
