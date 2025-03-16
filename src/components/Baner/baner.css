@@ -69,19 +69,23 @@
     background-color: black;
 }
 
-@media (max-width: 850px) {
-    .baner .container-baner {
-        padding: 30px 50px;
-    }
-}
-
 @media (max-width:768px) {
     .baner .container-baner {
         justify-content: space-around;
     }
 }
+/* 
+@media (max-width: 550px)  {
+    .baner .container-baner {
+        padding: 30px 50px;
+    }
+} */
 
 @media (max-width: 450px)  {
+    .baner .container-baner {
+        padding: 30px 50px;
+    }
+
     .baner .container-baner {
         padding: 30px 0px;
     }

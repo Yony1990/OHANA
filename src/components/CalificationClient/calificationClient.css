@@ -1,18 +1,19 @@
 #calification {
     
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     margin-top: 50px;
     cursor: grab ;
 }
 #calification:active {
     cursor: grabbing;
 }
+
 
 #calification .swiper {
     padding: 30px 30px 50px 30px;

@@ -130,7 +130,16 @@
     position: absolute;
 }
 
+@media (max-width: 850px) {
+    .nosotros {
+        gap: 20px;
+    }
+}
+
 @media (max-width: 450px) {
+    .nosotros {
+        gap: 15px;
+    }
     .nosotros .info {
         width: 100%;
     }
