@@ -50,7 +50,6 @@
     opacity: .7;
 }
 
-
 .sobre-biwedex a {
     color: rgb(62, 5, 132);
     text-decoration: none;
@@ -74,12 +73,6 @@
         justify-content: space-around;
     }
 }
-/* 
-@media (max-width: 550px)  {
-    .baner .container-baner {
-        padding: 30px 50px;
-    }
-} */
 
 @media (max-width: 450px)  {
     .baner .container-baner {
