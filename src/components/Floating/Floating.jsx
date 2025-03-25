@@ -36,7 +36,12 @@ const Floating = () => {
                       <div className="img-adop"></div>
                       <p>¿Sabés cuál es una de las labores MÁS IMPORTANTES de Ohana? Dedicamos todo nuestro ESFUERZO A AYUDAR a perritos que no tienen hogar, ofreciéndoles servicios y apoyo sin costo alguno. Tal vez tú podrías ser parte de esto COLABORANDO con nosotros, ya sea adquiriendo lo que ofrecemos o aportando algo desde tu ❤️, CADA GESTO CUENTA.</p>
                   </div>
-                  <button>Colaborar</button>
+                  <a href="https://wa.me/59891554406">
+                    <button>Colaborar</button>
+                  </a>
+
+                  {/* <button>Colaborar</button> */}
+                  
                   <img src={adoptOne} alt="imagen de perritos" />
                   <div className="line"></div>
                 </div>
