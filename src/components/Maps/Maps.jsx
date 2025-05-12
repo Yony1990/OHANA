@@ -78,7 +78,7 @@ const Maps = () => {
 
                             <div className="horario">
                                 <article>Horario</article>
-                                <span>9:00hs - 21:00</span>
+                                <span>14:30hs - 21:30</span>
                             </div>
                             
                         </div>
